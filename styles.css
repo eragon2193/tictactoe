@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+.grid-layout{
+  border:10px solid gray;
+  width:700px;
+  margin:50px auto;
+  height:600px;
+  display:grid;
+  grid-template-rows:100px 1fr;
+}
+.grid-board{
+  border:5px solid black;
+  display:grid;
+  width:400px;
+  height:400px;
+  margin:auto;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr
+}
+.header{
+  display:grid;
+  grid-template: 1fr 1fr / 1fr
+}
+button{
+  font-size:60px;
+}
+
+.winner{
+  position: fixed;
+  height:100vh;
+  width:100%;
+  border:orange 5px solid;
+  top:0;
+  left:0;
+  background-color:rgb(20 20, 20, 0.9);
+  transition:1s linear;
+}
+.restart-btn{
+  border-radius:100px;
+  background-color:teal;
+  letter-spacing: 10px;
+  font-size:72px;
+  width:400px;
+  position:relative;
+  top:40%;
+  display:inline-block;
+  margin-left:40%;
+  height:150px;
+}
+.btn-div{
+  display:flex;
+  justify-content: center;
+}
+.start-btn{
+  letter-spacing: 8px;
+  border-radius:10px;
+  background-color:yellow;
+  padding:10px;
+}
+.winnerText{
+  font-size:120px;
+  position: relative;
+  top:30%;
+  margin-left:35%;
+  color:lightseagreen;
+}
+.turn{
+  font-size:48px;
+  margin:auto;
+}
+.nameInputs{
+  border:5px solid green;
+  display:flex;
+  padding:10px;
+  font-size:24px;
+  justify-content: center;
+}
+input{
+font-size:20px;
+padding:5px;
+}
+.hidden{
+  display:none;
+ }
