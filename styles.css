@@ -65,6 +65,7 @@ background-color: goldenrod;
   letter-spacing: 8px;
   border-radius:10px;
   background-color:teal;
+  transition: 0.3s ease-in-out;
   padding:10px;
 }
 .start-btn:hover{
